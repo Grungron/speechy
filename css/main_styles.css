@@ -1,0 +1,459 @@
+.title {
+    background-image: linear-gradient(0deg, rgb(102, 102, 102) 0%, rgb(255, 255, 255) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-family: "InterTight", sans-serif;
+    font-size: 50px;
+}
+
+.title--under {
+    font-size: 16px;
+    text-align: justify;
+    width: 75%;
+}
+
+.title--mini {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title--font--bold {
+    font-weight: bold;
+}
+
+.main {
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: none;
+    flex-wrap: nowrap;
+    gap: 80px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: visible;
+    padding: 30vh 0;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.main-wrapper {
+    align-self: start;
+}
+
+.btn {
+    opacity: 1;
+    border-radius: 100px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    border-bottom-width: 1px;
+    border-color: transparent;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+}
+
+.btn--gradient {
+    background: linear-gradient(110deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    border-width: 0;
+}
+
+.btn__link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;  
+    padding: 12px 28px;
+    display: block;
+
+    border-bottom-width: 0px;
+    border-color: rgba(0, 0, 0, 0);
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    border-top-width: 0px;
+    border-radius: 100px;
+    opacity: 1;
+
+    position: relative;
+    z-index: 2;
+}
+
+.btn__link:hover {
+    animation: gradient 2s infinite;
+}
+
+@keyframes gradient {
+    5% {
+        background: linear-gradient(130deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    10% {
+        background: linear-gradient(150deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    15% {
+        background: linear-gradient(170deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    20% {
+        background: linear-gradient(190deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    25% {
+        background: linear-gradient(210deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    30% {
+        background: linear-gradient(230deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    35% {
+        background: linear-gradient(250deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    40% {
+        background: linear-gradient(260deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    45% {
+        background: linear-gradient(280deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    50% {
+        background: linear-gradient(300deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    55% {
+        background: linear-gradient(320deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    60% {
+        background: linear-gradient(340deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    65% {
+        background: linear-gradient(0deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    70% {
+        background: linear-gradient(20deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    75% {
+        background: linear-gradient(40deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    80% {
+        background: linear-gradient(60deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    85% {
+        background: linear-gradient(80deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    90% {
+        background: linear-gradient(100deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    95% {
+        background: linear-gradient(105deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+    100% {
+        background: linear-gradient(110deg, rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    }
+}
+
+.btn-frame {
+    border-radius: 100px;
+    opacity: 1;
+    background: linear-gradient(110deg, rgb(43, 79, 207) 0%,
+                rgb(238, 133, 100) 100%);
+    flex: none;
+    inset: 1px 0 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+
+    border-bottom-width: 0px;
+    border-color: rgba(0, 0, 0, 0);
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    border-top-width: 0px;
+}
+
+
+.mini-label {
+    border-bottom-width: 1px;
+    border-color: rgba(255, 255, 255, .1);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    background-color: #ffffff1a;
+    border-radius: 40px;
+    padding: 6px 16px;
+    font-family: "InterTight";
+    color: #b7b7b7;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 150%;
+    letter-spacing: .05em;
+    width: fit-content;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    width: 100%;
+}
+
+.price__title {
+    align-self: center;
+}
+
+.price__label {
+    align-self: center;
+}
+
+.price__wrapper {
+    display: flex;
+    width: 100%;
+    gap: 32px;
+    align-items: center;
+}
+
+.price__item {
+    border-bottom-width: 1px;
+    border-color: rgba(149, 158, 171, 0.3);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    box-shadow: rgba(21, 21, 21, 0.25) 8px 8px 10px 0px;
+    width: 100%;
+    opacity: 1;
+    
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 40px;
+    height: min-content;
+    min-height: 557px;
+    justify-content: flex-start;
+    max-width: 400px;
+    overflow: visible;
+    padding: 24px;
+    position: relative;
+    z-index: 0;
+    
+    color:white;
+}
+
+.price__item--emphasis {
+    background: linear-gradient(rgb(43, 79, 207) 0%, rgb(238, 133, 100) 100%);
+    padding: 35px 24px;
+    border-block: none;
+    position: relative;
+    min-height: 580px;
+}
+
+.price-badge {
+    border-bottom-width: 1px;
+    border-color: rgba(149, 158, 171, 0.1);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    border-radius: 30px;
+    opacity: 1;
+
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 8px 16px;
+    position: relative;
+    width: min-content;
+    will-change: var(--framer-will-change-override, transform);
+
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 1;
+
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.price-badge__gradient {
+    background: radial-gradient(50% 38% at 50% 0%, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0.1) 100%);
+    filter: blur(10px);
+    opacity: 1;
+    inset: 0;
+    overflow: visible;
+    position: absolute;
+    z-index: 0;
+}
+
+.price__price {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "InterTight";
+    margin-top: 14px;
+}
+
+.price__price--business {
+    font-size: 32px;
+    margin-top: 24px;
+}
+
+.price__team-size {
+    font-size: 16px;
+    font-family: "InterTight";
+    margin-top: 14px;
+}
+
+.price-features {
+    font-family: "InterTight";
+    font-size: 14px;
+    color: white;
+    line-height: 160%;
+    flex-grow: 1;
+}
+
+.price-features__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.price-features__wrapper {
+    margin-top: 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.subscribe {
+    height: min-content;
+    width: 100%;
+    position: relative;
+}
+
+.subscribe__link {
+    padding: 16px 32px;
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+    display: block;
+    font-size: 18px;
+    height: 100%;
+    text-align: center;
+
+    background-color: rgb(67, 72, 84);
+    border-radius: 100px;
+    opacity: 1;
+
+    position: relative;
+    z-index: 2;
+}
+
+
+.subscribe__effect {
+    background: radial-gradient(100% 25% at 50% 0%, var(--token-f74b9e6c-5d2b-4bd0-af58-7f9605274549, rgb(149, 158, 171)) 0%, rgb(45, 48, 56) 100%);
+    border-radius: 100px;
+    inset: 0;
+    overflow: visible;
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.subscribe__effect--hidden {
+    display: none;
+}
+
+.subscribe__link--emphasis {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-top: 1px solid rgba(240, 240, 240, 1);
+}
+
+.price-glow-effect {
+    left: calc(50.00000000000002% - 800px / 2);
+    background: linear-gradient(180deg,#2b4fcf 0%,rgb(238, 133, 100) 100%);
+    border-radius: 100%;
+    filter: blur(100px);
+    flex: none;
+    height: 569px;
+    opacity: .15;
+    position: absolute;
+    width: 772px;
+    z-index: 0;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+
+.features__wrapper {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.features__card {
+    border-bottom-width: 1px;
+    border-color: rgba(255, 255, 255, 0.1);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+
+    padding: 16px 10px;
+}
+
+.features__img {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.features__desc {
+    background-image: linear-gradient(197deg, rgb(102, 102, 102) -60%, rgb(255, 255, 255) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-family: "InterTight", sans-serif;
+    font-size: 16px;
+
+    text-align: center;
+    white-space: wrap;
+}
+
+
+.faq__label {
+    align-self: center;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}

@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 60px;
+    margin-bottom: 2%;
+    padding: 0 2%;
+}
+
+.agreements {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.agreements a, .agreements span {
+    font-family: "InterTight", sans-serif;
+    font-size: 16px;
+    background-image: linear-gradient(0deg, rgb(102, 102, 102) 0%, rgb(255, 255, 255) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,122 @@
+.header--logo--only {
+    max-width: 400px;
+    width: 20%;
+    left: 50%;
+    position: relative;
+}
+
+.brand {
+    max-width: 100%;
+}
+
+.header-wrapper {
+    justify-content: center;
+}
+
+.main {
+    gap: 40px;
+    padding: 10vh 0;
+}
+
+.main--signin--padding {
+    padding: 16vh 0;
+}
+
+.title--auth {
+    font-size: 64px;
+}
+
+.form-wrapper {
+    width: 500px;
+}
+
+.field-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+}
+
+.field__label {
+    font-family: "InterTight", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color:  #fff;
+    font-size: 16px;
+    letter-spacing: 0;
+    text-transform: none;
+    text-decoration: none;
+    line-height: 1.2em;
+    text-align: start;
+}
+
+.field__input {
+    border-bottom-width: 1px;
+    border-color: rgba(255, 255, 255, .1);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    align-content: center;
+    align-items: center;
+    background-color: #ffffff1a;
+    border-radius: 10px;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: visible;
+    padding: 10px 170px 10px 16px;
+    position: relative;
+    width: 100%;
+    
+    color: white;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.submit-wrapper {
+    align-self: center;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.btn__submit {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;  
+    width: 100%;
+    font-family: "InterTight", sans-serif;
+}
+
+.alt-wrapper {
+    text-align: center;
+    margin-top: 5%;
+
+    font-family: "InterTight", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0;
+    text-transform: none;
+    text-decoration: none;
+    line-height: 1.2em;
+}
+
+.alt-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.alt-link:hover {
+    text-decoration: underline;
+}
