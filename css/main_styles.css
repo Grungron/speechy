@@ -35,7 +35,7 @@
     height: min-content;
     justify-content: flex-start;
     overflow: visible;
-    padding: 30vh 0;
+    padding: 15% 0;
     position: relative;
     width: 100%;
     z-index: 1;
@@ -275,7 +275,6 @@
     padding: 8px 16px;
     position: relative;
     width: min-content;
-    will-change: var(--framer-will-change-override, transform);
 
     background-color: rgba(255, 255, 255, 0.2);
     z-index: 1;

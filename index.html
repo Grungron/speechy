@@ -2,13 +2,13 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Speechy</title>
     <link rel="stylesheet" href="css/page_styles.css">
     <link rel="stylesheet" href="css/header_styles.css">
     <link rel="stylesheet" href="css/main_styles.css">
     <link rel="stylesheet" href="css/footer_styles.css">
     <link rel="stylesheet" href="css/accordion.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 <body>
     <header class="header container">
@@ -25,6 +25,7 @@
             <nav class="main-menu">
                 <a href="index.html#features" class="btn header__link">Возможности</a>
                 <a href="index.html#price" class="btn header__link">Тарифы</a>
+                <a href="index.html#faq" class="btn header__link">Тарифы</a>
                 <a href="index.html#contacts" class="btn header__link">Контакты</a>
             </nav>
             <div class="wrapper">
@@ -38,15 +39,15 @@
     </header>
     
     <main class="main container">
-        <h1 class="title main-wrapper">
+        <h1 class="title main-wrapper load-hidden">
             Цифровой помощник<br> для подготовки к публичным<br>выступлениям
         </h1>
-        <div class="title main-wrapper title--mini ">
+        <div class="title main-wrapper title--mini load-hidden ">
             Мы объединяем три передовые технологии в одном<br> 
             решении, делая подготовку к выступлениям<br> 
             максимально комплексной и эффективной
         </div>
-        <div class="main-wrapper">
+        <div class="main-wrapper load-hidden">
             <button class="btn btn--gradient">
                 <div class="btn-frame"></div>
                 <div class="border-glow-effect"></div>
@@ -54,7 +55,7 @@
             </button>
         </div>
         
-        <div class="features" id="features">
+        <div class="features load-hidden" id="features">
             <div class="mini-label main-wrapper">Мы предлагаем</div>
             <div class="title title--mini">Поднимите подготовку к публичным выступлениям на новый уровень</div>
             <div class="title title--under">
@@ -83,7 +84,7 @@
             </div>
         </div>
 
-        <div class="price" id="price">
+        <div class="price load-hidden" id="price">
             <div class="mini-label main-wrapper price__label">Тарифы</div>
             <div class="title title--mini price__title">Выберите подходящий для вас план</div>
             <div class="price__wrapper">
@@ -169,7 +170,7 @@
             </div>
         </div>
         
-        <div class="faq" id="faq">
+        <div class="faq load-hidden" id="faq">
             <div class="mini-label main-wrapper faq__label">Frequently Asked Questions</div>
             <div class="title title--mini">Нас часто спрашивают...</div>
 
@@ -213,5 +214,18 @@
             <span class="contacts">Контакты: speechy_project@mail.ru</span>
         </div>
     </footer>
+
+    <script>
+        ScrollReveal({ 
+            delay: 1000,
+            duration: 2000,
+            distance: '50px',
+            useDelay: 'onload',
+        });
+        ScrollReveal().reveal('.main-wrapper', { delay: 100 });
+        ScrollReveal().reveal('.features');
+        ScrollReveal().reveal('.price');
+        ScrollReveal().reveal('.faq');
+    </script>
 </body>
 </html>

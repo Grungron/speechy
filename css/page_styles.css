@@ -5,6 +5,7 @@
 }
 
 body {
+    min-width: 1600px;
     height: fit-content;
     background-color: rgb(21, 26, 34);
     font-size: 12px;
@@ -39,4 +40,8 @@ body {
     overflow: visible;
     position: absolute;
     z-index: -1;
+}
+
+html.sr .load-hidden {
+    visibility: hidden;
 }
