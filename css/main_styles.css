@@ -1,5 +1,5 @@
 .title {
-    background-image: linear-gradient(0deg, rgb(102, 102, 102) 0%, rgb(255, 255, 255) 100%);
+    background-image: linear-gradient(0deg, rgb(167, 146, 194) 0%, rgb(206, 214, 233) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -9,7 +9,7 @@
 }
 
 .title--under {
-    font-size: 16px;
+    font-size: 19px;
     text-align: justify;
     width: 75%;
 }
@@ -357,7 +357,7 @@
 
 
 .subscribe__effect {
-    background: radial-gradient(100% 25% at 50% 0%, var(--token-f74b9e6c-5d2b-4bd0-af58-7f9605274549, rgb(149, 158, 171)) 0%, rgb(45, 48, 56) 100%);
+    background: radial-gradient(100% 25% at 50% 0%, rgb(149, 158, 171) 0%, rgb(45, 48, 56) 100%);
     border-radius: 100px;
     inset: 0;
     overflow: visible;
@@ -422,6 +422,7 @@
     align-items: center;
 
     padding: 16px 10px;
+    border-radius: 20px;
 }
 
 .features__img {
@@ -429,6 +430,7 @@
     height: auto;
     margin: 0 auto;
     display: block;
+    border-radius: 10px;
 }
 
 .features__desc {
